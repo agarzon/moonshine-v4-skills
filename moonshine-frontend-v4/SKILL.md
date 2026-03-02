@@ -445,7 +445,7 @@ Wrap components in a `Fragment` for partial page updates without full reload:
 ```php
 use MoonShine\Support\AlpineJs;
 use MoonShine\Support\Enums\JsEvent;
-use MoonShine\UI\Components\Fragment;
+use MoonShine\Crud\Components\Fragment;
 
 Fragment::make([
     TableBuilder::make()->fields($fields)->items($items)->name('data-table')

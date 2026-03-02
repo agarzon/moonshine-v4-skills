@@ -291,7 +291,7 @@ protected function components(): iterable
 
 ```php
 use MoonShine\UI\Components\ActionButton;
-use MoonShine\UI\Components\Fragment;
+use MoonShine\Crud\Components\Fragment;
 use MoonShine\UI\Components\Layout\Div;
 
 ActionButton::make('Fragments', $this->getRouter()->getEndpoints()->toPage($this, extra: [

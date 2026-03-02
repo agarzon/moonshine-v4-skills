@@ -374,7 +374,7 @@ Fragment sends form data along with the request, allowing dynamic Select sets on
 ```php
 use MoonShine\Support\AlpineJs;
 use MoonShine\Support\Enums\JsEvent;
-use MoonShine\UI\Components\Fragment;
+use MoonShine\Crud\Components\Fragment;
 
 protected function formFields(): iterable
 {

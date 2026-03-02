@@ -45,7 +45,7 @@ Metrics that update based on form date parameters, using Fragment for async relo
 
 ```php
 use MoonShine\UI\Components\FormBuilder;
-use MoonShine\UI\Components\Fragment;
+use MoonShine\Crud\Components\Fragment;
 use MoonShine\UI\Components\Layout\Flex;
 use MoonShine\UI\Components\Metrics\Wrapped\LineChartMetric;
 use MoonShine\UI\Fields\Date;

@@ -139,7 +139,7 @@ ActionButton::make('Show modal window', '/endpoint')
 ```php
 use MoonShine\Support\AlpineJs;
 use MoonShine\Support\Enums\JsEvent;
-use MoonShine\UI\Components\Fragment;
+use MoonShine\Crud\Components\Fragment;
 
 Fragment::make([
     TableBuilder::make()->fields($fields)->items($items)->name('data-table')

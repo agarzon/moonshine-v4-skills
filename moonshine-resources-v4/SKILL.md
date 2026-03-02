@@ -401,7 +401,7 @@ $resource->getActivePage();                 // current active page or null
 ## Cross-References
 
 - For field types and relationship fields, see the `moonshine-fields-v4` skill.
-- For ActionButton advanced usage, see the `moonshine-action-button` skill.
+- For ActionButton advanced usage, see the `moonshine-components-v4` skill.
 - For Layout and menu configuration, see the `moonshine-appearance-v4` skill.
 - For TableBuilder and FormBuilder components, see the `moonshine-components-v4` skill.
 - Detailed CRUD page customization: `references/crud-pages.md`
