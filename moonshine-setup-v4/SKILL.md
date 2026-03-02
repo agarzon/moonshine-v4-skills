@@ -135,7 +135,7 @@ use Illuminate\Support\ServiceProvider;
 use MoonShine\Contracts\Core\DependencyInjection\CoreContract;
 use MoonShine\Laravel\DependencyInjection\MoonShine;
 use MoonShine\Laravel\DependencyInjection\MoonShineConfigurator;
-use MoonShine\Laravel\DependencyInjection\ConfiguratorContract;
+use MoonShine\Contracts\Core\DependencyInjection\ConfiguratorContract;
 
 class MoonShineServiceProvider extends ServiceProvider
 {
@@ -427,8 +427,8 @@ class MyPage extends Page
 |-----------|---------------|
 | `MoonShine\Laravel\Notifications\NotificationButton` | `MoonShine\Crud\Notifications\NotificationButton` |
 | `MoonShine\Laravel\MoonShineUI` | Use `toast()` helper instead of `MoonShineUI::toast()` |
-| `MoonShine\Laravel\Handlers\Handlers` | `MoonShine\Crud\Handlers\BaseHandlers` |
-| `MoonShine\Laravel\Handlers\Handler` | `MoonShine\Crud\Handlers\BaseHandler` |
+| `MoonShine\Laravel\Handlers\Handlers` | `MoonShine\Crud\Handlers\Handlers` |
+| `MoonShine\Laravel\Handlers\Handler` | `MoonShine\Crud\Handlers\Handler` |
 
 ## Cross-references
 

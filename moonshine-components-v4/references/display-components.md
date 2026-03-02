@@ -314,10 +314,10 @@ When::make(
 
 ## Title
 
-`MoonShine\UI\Components\Layout\Title` — page heading.
+`MoonShine\UI\Components\Title` — page heading.
 
 ```php
-use MoonShine\UI\Components\Layout\Title;
+use MoonShine\UI\Components\Title;
 
 Title::make('Page Title')
 Title::make('Sub heading', h: 2)

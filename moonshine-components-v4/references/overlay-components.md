@@ -375,7 +375,7 @@ session()->flash('toast', [
 ### Toast via JS Event
 
 ```php
-use MoonShine\Support\ToastEventParams;
+use MoonShine\Support\EventParams\ToastEventParams;
 use MoonShine\Support\Enums\ToastType;
 
 AlpineJs::event(
@@ -388,7 +388,7 @@ AlpineJs::event(
 
 ## Notifications
 
-**Namespace:** `MoonShine\UI\Components\Layout\Notifications`
+**Namespace:** `MoonShine\Crud\Components\Layout\Notifications`
 
 Dropdown element in layout for displaying system notifications.
 

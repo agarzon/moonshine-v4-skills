@@ -350,7 +350,7 @@ Text::make('Title')
 Disable for File/Image fields:
 
 ```php
-use MoonShine\Laravel\Fields\Image;
+use MoonShine\UI\Fields\Image;
 
 Image::make('Avatar')
     ->disableRefreshAfterApply()
@@ -393,7 +393,7 @@ Register in service provider:
 use App\MoonShine\Applies\FileModelApply;
 use MoonShine\Contracts\Core\DependencyInjection\AppliesRegisterContract;
 use MoonShine\Contracts\Core\DependencyInjection\CoreContract;
-use MoonShine\Laravel\DependencyInjection\ConfiguratorContract;
+use MoonShine\Contracts\Core\DependencyInjection\ConfiguratorContract;
 use MoonShine\Laravel\Resources\ModelResource;
 use MoonShine\UI\Fields\File;
 

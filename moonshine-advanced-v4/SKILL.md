@@ -78,7 +78,7 @@ public function __invoke(CrudRequestContract $request)
 
 ---
 
-## Handlers (BaseHandler)
+## Handlers (Handler)
 
 Handlers are reusable action classes that automatically generate UI buttons on resource index pages. They do not require separate controllers.
 

@@ -47,7 +47,7 @@ Metrics that update based on form date parameters, using Fragment for async relo
 use MoonShine\UI\Components\FormBuilder;
 use MoonShine\Crud\Components\Fragment;
 use MoonShine\UI\Components\Layout\Flex;
-use MoonShine\UI\Components\Metrics\Wrapped\LineChartMetric;
+use MoonShine\ApexCharts\Components\LineChartMetric; // requires moonshine/apexcharts package
 use MoonShine\UI\Fields\Date;
 use MoonShine\Support\AlpineJs;
 use MoonShine\Support\Enums\JsEvent;

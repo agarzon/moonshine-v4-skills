@@ -229,7 +229,7 @@ Important rules:
 Add pagination to a standalone TableBuilder on a custom page.
 
 ```php
-use MoonShine\Laravel\TypeCasts\PaginatorCaster;
+use MoonShine\Crud\TypeCasts\PaginatorCaster;
 use MoonShine\UI\Components\Table\TableBuilder;
 use MoonShine\UI\Fields\Text;
 

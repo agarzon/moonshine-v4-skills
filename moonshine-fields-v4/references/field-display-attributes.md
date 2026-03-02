@@ -8,7 +8,7 @@ Change the label after creating the field instance:
 
 ```php
 use MoonShine\UI\Fields\Field;
-use MoonShine\UI\Fields\Slug;
+use MoonShine\Laravel\Fields\Slug;
 
 Slug::make('Slug')
     ->setLabel(

@@ -29,7 +29,7 @@ Based on what the task involves, read **1–3 relevant sub-skills** from the tab
 | Layouts, custom layouts, AppLayout, menus (MenuItem new parameter order), color palettes (PurplePalette), icons, assets, custom pages, dark mode, branding, Blade templates, admin panel design | `moonshine-appearance-v4/SKILL.md` |
 | API mode/backend, JWT authentication for API, OpenAPI generator (moonshine/oag), SDUI (Server-Driven UI), Alpine.js events, JavaScript helpers, reactive fields, async UI updates, AsyncCallback, fragment-based partial updates, custom Alpine.js components, MoonShine JS global class | `moonshine-frontend-v4/SKILL.md` |
 | Authentication, authorization, login, guards, custom user models, Socialite, 2FA, JWT, role-based access, Laravel policies, auth pipelines, authenticateUsing/logoutUsing, middleware, IP restrictions | `moonshine-security-v4/SKILL.md` |
-| Custom controllers, handlers (BaseHandler), custom routes, type casts, notifications, toasts, testing, package development, CrudResource (non-Eloquent data), JsonResponse, #[AsyncMethod] attribute, recipe patterns | `moonshine-advanced-v4/SKILL.md` |
+| Custom controllers, handlers (Handler), custom routes, type casts, notifications, toasts, testing, package development, CrudResource (non-Eloquent data), JsonResponse, #[AsyncMethod] attribute, recipe patterns | `moonshine-advanced-v4/SKILL.md` |
 
 ## Instructions
 

@@ -459,7 +459,7 @@ Json::make('Data')
 
 ```php
 use MoonShine\UI\Fields\Fieldset;
-use MoonShine\UI\Fields\Slug;
+use MoonShine\Laravel\Fields\Slug;
 use MoonShine\UI\Fields\Text;
 
 Fieldset::make('Title', [
@@ -478,7 +478,7 @@ Fieldset::make()
 ### Edit view with LineBreak
 
 ```php
-use MoonShine\UI\Components\LineBreak;
+use MoonShine\UI\Components\Layout\LineBreak;
 
 Fieldset::make('Title', [
     Text::make('Title'),
